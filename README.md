@@ -1,6 +1,6 @@
 The demo project to show the error in "eslint-plugin-react-hooks" plugin with TypeScript "satisfies" operator
 
-How to test:
+### How to test:
 - Install dependensies:
 ```
 yarn
