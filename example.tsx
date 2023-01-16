@@ -10,7 +10,8 @@ export const useOnClick = () => {
       setClicked(true);
       return clicked;
     }) satisfies OnClick,
-    [clicked]
+    // Expected to see a warning here: React Hook useCallback has a missing dependency: 'clicked'. Either include it or remove the dependency array.eslintreact-hooks/exhaustive-deps
+    []
   );
   return onClick;
 };

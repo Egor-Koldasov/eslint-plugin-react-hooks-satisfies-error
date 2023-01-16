@@ -8,6 +8,6 @@ module.exports = {
   plugins: ["@typescript-eslint", "react-hooks"],
   root: true,
   rules: {
-    "react-hooks/exhaustive-deps": "error",
+    "react-hooks/exhaustive-deps": "warn",
   },
 };
